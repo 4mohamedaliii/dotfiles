@@ -50,4 +50,6 @@ fi
 
 
 ### What I added. ###
+sxhkd &
+dwmblocks &
 exec dwm
