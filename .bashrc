@@ -25,4 +25,5 @@ alias u='pacman -Syu'
 alias const='config status'
 alias conadd='config add'
 alias conp='config push'
-
+alias ll='ls -lh'
+alias lla='ls -alh'
