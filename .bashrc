@@ -19,7 +19,7 @@ set -o vi
 ### My aliases. ###
 alias config='/usr/bin/git --git-dir=/home/moali/dotfiles --work-tree=/home/moali'
 alias pacman='sudo pacman'
-alias i='pacman -S'
+alias i='pacman -Sy'
 alias ss='pacman -Ss'
 alias u='pacman -Syu'
 alias const='config status'
