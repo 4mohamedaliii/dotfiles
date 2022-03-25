@@ -15,6 +15,8 @@ PS1='[\u@\h \W]\$ '
 
 # enabling vi mode. 
 set -o vi
+bind -m vi-command 'Control-l: clear-screen'
+bind -m vi-insert 'Control-l: clear-screen'
 
 ### My aliases. ###
 alias config='/usr/bin/git --git-dir=/home/moali/dotfiles --work-tree=/home/moali'
