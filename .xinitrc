@@ -52,4 +52,9 @@ fi
 ### What I added. ###
 sxhkd &
 dwmblocks &
-exec dwm
+picom &
+
+### restarting dwm ###
+# execute & restarting dwm
+exec $HOME/scripts/startdwm
+
